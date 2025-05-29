@@ -1,0 +1,35 @@
+.textField{
+
+    -fx-background-color: WHITE;
+    -fx-background-radius: 30px;
+    -fx-border-color: WHITE;
+    -fx-border-radius: 30px;
+
+}
+
+.shot{
+
+    -fx-background-color: #D346E5;
+    -fx-background-radius: 30px;
+    -fx-border-color: #D346E5;
+    -fx-border-radius: 30px;
+
+}
+
+.backgroundTransparent{
+
+    -fx-background-color: transparent;
+
+}
+
+.backgroundImage{
+
+    -fx-background-image: url("Images/backgroundImage.png");
+
+}
+
+.backgroundWhite{
+
+    -fx-background-color: WHITE;
+
+}

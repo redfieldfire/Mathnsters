@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="pane" prefHeight="120.0" prefWidth="150.0" styleClass="backgroundTransparent" stylesheets="@../Style.css" xmlns="http://javafx.com/javafx/1.8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Ship.FormShip">
+    <ImageView fx:id="ship" fitHeight="120.0" fitWidth="150.0" layoutX="22.0" pickOnBounds="true" preserveRatio="true" rotate="90.0">
+        <Image url="@../Images/cohete-espacial.png" />
+    </ImageView>
+    <TextField fx:id="textNum" alignment="CENTER" editable="false" layoutX="54.0" layoutY="42.0" onKeyPressed="#keyPressed" prefWidth="60.0" styleClass="textField">
+        <font>
+          <Font size="15.0" />
+        </font>
+    </TextField>
+   <Text fx:id="textNum2" fill="#591a61" layoutX="54.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="60.0">
+      <font>
+         <Font size="16.0" />
+      </font>
+   </Text>
+</AnchorPane>
